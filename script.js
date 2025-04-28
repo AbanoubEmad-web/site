@@ -238,6 +238,16 @@ document.getElementById('booking-form').addEventListener('submit', (e) => {
             element.classList.add('error');
         }
     });
+        const dateInput = document.getElementById('date');
+        const now = new Date();
+        if (dateInput && dateInput.value && new Date(dateInput.value) < now) {
+            isValid = false;
+            dateInput.classList.add('error');
+            formErrors.textContent = lang === 'en'
+                ? 'Please select a future date and time.'
+                : 'يرجى اختيار تاريخ ووقت في المستقبل.';
+            formErrors.classList.add('error-message');
+        }
 
         if (isValid) {
         const name = document.getElementById('name').value;
