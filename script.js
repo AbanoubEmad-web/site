@@ -226,6 +226,10 @@ document.getElementById('booking-form').addEventListener('submit', (e) => {
         const element = document.getElementById(field);
         if (!element) {
             console.error(`Field ${field} not found`);
+            formErrors.textContent = lang === 'en'
+                ? 'An error occurred. Please try again.'
+                : 'حدث خطأ. يرجى المحاولة مرة أخرى.';
+            formErrors.classList.add('error-message');
             isValid = false;
             return;
         }
