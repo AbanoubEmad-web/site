@@ -215,7 +215,7 @@ document.getElementById('booking-form').addEventListener('submit', (e) => {
     formErrors.innerHTML = '';
     formErrors.className = '';
 
-    const fields = ['name', 'age', 'city', 'date'];
+    const fields = ['name', 'age', 'city','service', 'date'];
     fields.forEach(field => {
         const element = document.getElementById(field);
         if (element) element.classList.remove('error');
@@ -235,10 +235,18 @@ document.getElementById('booking-form').addEventListener('submit', (e) => {
         }
     });
 
-    if (isValid) {
+        if (isValid) {
+        const name = document.getElementById('name').value;
+        const age = document.getElementById('age').value;
+        const city = document.getElementById('city').value;
+        const service = document.getElementById('service').value;
+        const date = document.getElementById('date').value;
+        const message = `New Booking: Name: ${name}, Age: ${age}, City: ${city}, Service: ${service}, Date: ${date}`;
+        const whatsappUrl = `https://wa.me/201277971318?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, '_blank');
         formErrors.textContent = lang === 'en'
-            ? 'Booking successful! We will contact you soon.'
-            : 'تم الحجز بنجاح! سنتواصل معك قريبًا.';
+            ? 'Booking submitted via WhatsApp!'
+            : 'تم إرسال الحجز عبر واتساب!';
         formErrors.classList.add('success-message');
         e.target.reset();
     } else {
