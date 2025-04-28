@@ -20,9 +20,9 @@ const translations = {
         feedbackText: "* Please leave your feedback through ",
         whatsappLink: "WhatsApp",
         feedbackExclamation: "!",
-        serviceOptions: ["Physiotherapy", "Nutrition Consultation"],
-        physio: "Physiotherapy:",
-        nutrition: "Nutrition Consulting:"
+        serviceOptions: ["Home Physiotherapy", "Online Nutrition Consulting"],
+        physio: "Home Physiotherapy:",
+        nutrition: "Online Nutrition Consulting:"
     },
     ar: {
         title: "د. أبانوب عماد",
