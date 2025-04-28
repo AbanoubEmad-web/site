@@ -2,7 +2,7 @@
 const translations = {
     en: {
         title: "Dr. Abanoub Emad",
-        intro: "Welcome! I'm Dr. Abanoub Emad, Physiotherapist and Nutritionist, I'm here to guide you towards a better, pain-free and healthy life.",
+        intro: "Hi, I’m Dr. Abanoub, A licensed Physiotherapist and Certified Nutrition Specialist. I'm here to help you recover, move better, and live healthier through personalized care in physiotherapy and nutrition. My goal is to support you with evidence-based solutions, tailored to your unique needs, so you can feel your best every day. I'm here to guide you every step of the way — with trust, care, and commitment to your health.",
         servicesTitle: "My Services",
         bookingTitle: "Book an Appointment",
         contactTitle: "Contact Me",
@@ -26,7 +26,7 @@ const translations = {
     },
     ar: {
         title: "د. أبانوب عماد",
-        intro: "مرحبا! أنا د. أبانوب عماد، أخصائي علاج طبيعي وتغذية، وأنا هنا لأساعدك في الوصول إلى حياة أفضل وخالية من الألم وصحية.",
+        intro: "أهلا بيك ، أنا د. أبانوب أخصائي علاج طبيعي معتمد وأخصائي تغذية معتمد. أنا هنا عشان أساعدك على التعافي، وتحسين الحركة، وعيش حياة صحية سليمة من خلال رعاية شخصية تجمع بين العلاج الطبيعي والتغذية العلاجية. هدفي أن أقدم لك حلولًا مبنية على أسس علمية، ومصممة خصيصًا لاحتياجاتك، لتشعر بأفضل حال كل يوم. أنا هنا لدعمك في كل خطوة نحو صحة أفضل بثقة ورعاية حقيقية.",
         servicesTitle: "خدماتي",
         bookingTitle: "حجز موعد",
         contactTitle: "تواصل معي",
