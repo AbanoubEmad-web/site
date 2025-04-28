@@ -44,9 +44,9 @@ const translations = {
         feedbackText: "* يرجى ترك ملاحظاتك من خلال ",
         whatsappLink: "واتساب",
         feedbackExclamation: "!",
-        serviceOptions: ["العلاج الطبيعي", "استشارة التغذية"],
-        physio: "العلاج الطبيعي:",
-        nutrition: "استشارات التغذية:"
+        serviceOptions: ["العلاج الطبيعي المنزلي", "استشارات التغذية اونلاين"],
+        physio: "العلاج الطبيعي المنزلي:",
+        nutrition: "استشارات التغذية اونلاين:"
     }
 };
 
